@@ -1,0 +1,636 @@
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 20px 10px 10px 10px;
+  display: inline-block;
+  width: 168px;
+  height: 18px;
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+
+}
+
+.navigation a {
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  border-bottom: 4px solid #e8bf5d;
+  letter-spacing: 1px;
+  color: #111111;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.navigation a:hover {
+  background: #e8bf5d;
+}
+
+.background-img {
+  background-image: url("../img/grad.png"), url("../img/stock-photo.png");
+  margin-top: 20px;
+}
+
+.adam-advocat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 780px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.p {
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 31px;
+  line-height: 36px;
+}
+
+.contact {
+  width: 170px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #e8bf5d;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: 0.64px;
+  padding: 10px 10px 15px 10px;
+  font-weight: bold;
+}
+
+.adam {
+  border-left: 3px #e8bf5d solid;
+  padding-left: 15px;
+  margin-bottom: 130px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  padding: 10px 15px;
+  border-left: 3px #e8bf5d solid;
+
+}
+.screen {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+
+}
+
+.we-p {
+  color: #666666;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
+.about-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.history-exertise {
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  padding: 5px 5px 30px 5px;
+}
+
+li.year {
+  color: #111111;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31px;
+  padding: 20px;
+}
+
+.history-text {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.history-text li {
+  padding: 15px;
+  color: #111111;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.big-text {
+  color: #666666;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 5px;
+}
+
+.background-black {
+  background-color: #000000;
+
+}
+
+.practis {
+  color: #ffffff;
+  font-family: "Open Sans", Arial sans-serif;
+  font-weight: 400;
+  opacity: 0.1;
+  position: relative;
+  padding: 100px 0 0 0;
+  font-size: 31px;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+
+}
+
+.practis-1 {
+  position: absolute;
+  padding: 0 15px;
+  border-left: 3px #e8bf5d solid;
+  margin-top: -180px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  font-family: "Playfair Display", Arial sans-serif;
+
+}
+
+.practis-p {
+  color: #b9b9b9;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+}
+
+.headline {
+  color: #ffffff;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  letter-spacing: 0.84px;
+  padding-bottom: 20px;
+}
+
+.description {
+  color: #ffffff;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+.private {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.icon-one {
+  padding-top: 160px;
+}
+
+.background-white {
+  background-color: #ffffff;
+
+}
+
+h4 {
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+
+}
+
+.practis-p1 {
+  color: #666666;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+
+}
+
+.practis-2 {
+  position: absolute;
+  padding: 0 15px;
+  border-left: 3px #e8bf5d solid;
+  margin-top: -180px;
+}
+
+.practis-img {
+  padding-top: 80px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+.general {
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 31px;
+}
+
+.general-p {
+  font-family: "Open Sans", Arial sans-serif;
+  letter-spacing: 0.56px;
+  line-height: 24px;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.background-shadow {
+  background-image: url("../img/stock-photo-1.png");
+  background-color: #1b1b1b;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.say-p1 {
+  color: #b9b9b9;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
+.say {
+  position: absolute;
+  padding: 0 15px;
+  border-left: 3px #e8bf5d solid;
+  margin-top: -180px;
+}
+.background-photo {
+  background-color: #e8bf5d;
+  background-image: url("../img/stock-photo-15.png");
+  width: 370px;
+  height: 305px;
+  box-shadow: 10px 10px 1px 10px #e8bf5d;
+}
+.contact-text {
+  color: #ffffff;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  padding: 20px;
+
+}
+.con-img {
+  margin-left: -30px;
+}
+.contact-text-1 {
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 31px;
+  color: #ffffff;
+  padding: 20px;
+
+}
+.section-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.contact-text-2 {
+  margin-left: -80px;
+  margin-bottom: 70px;
+}
+.practis-05 {
+  position: absolute;
+  padding-top: 50px;
+
+}
+  .practis-recent{
+  padding: 0 15px;
+  border-left: 3px #e8bf5d solid;
+
+}
+  .background-05 {
+    background-color: #ffffff;
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+  .practis-05 img {
+    position: relative;
+    bottom: 80px;
+  }
+  .practis-recent-p {
+    color: #666666;
+    font-family: "Playfair Display", Arial sans-serif;
+    font-size: 21px;
+  }
+  .publications {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+hr {
+  border: none;
+  background-color: #e8bf5d;
+  height: 3px;
+  margin-top: 30px;
+}
+
+  .publications-text {
+    font-family: "Playfair Display", Arial sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.84px;
+    line-height: 31px;
+  }
+
+  .publications-text-date {
+    letter-spacing: 0.64px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Open Sans", Arial sans-serif;
+    font-style: oblique;
+    margin-left: 162px;
+    padding-bottom: 30px;
+  }
+  .publications-text-neme {
+    color: #111111;
+    font-family: "Open Sans", Arial sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  .publications-textarea {
+    padding-bottom: 30px;
+  }
+  .coment {
+    display: inline-block;
+    position: absolute;
+  }
+  .share {
+    margin-left: 280px;
+    margin-bottom: 50px;
+    position: absolute;
+
+  }
+  .background-06 {
+    background-color: #111111;
+    padding-bottom: 90px;
+    padding-top: 50px;
+  }
+  .practis-06 {
+   display: inline-block;
+    position: absolute;
+  padding-top: 10px;
+  }
+  .practis-h6p {
+    padding: 10px 15px;
+    border-left: 3px #e8bf5d solid;
+  }
+  h6 {
+    color: #ffffff;
+    font-family: "Playfair Display", Arial sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    margin: 25px 0 35px 0;
+  }
+  .practis-h6-p {
+    color: #b9b9b9;
+    font-family: "Playfair Display", Arial sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .poll {
+    color: #ffffff;
+    font-family: "Open Sans", Arial sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 31px;
+
+  }
+  .color {
+    color: #e8bf5d;
+  }
+  .text-arial {
+    width: 500px;
+    background-color: #e8bf5d;
+    padding: 42px 42px 70px 42px;
+  }
+  .container-poll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .poll {
+    padding: 10px;
+    border-bottom: 1px #e8bf5d solid;
+  }
+  .poll-test {
+   margin-left: 50px;
+  }
+  .poll-test-2 {
+    margin-left: 105px;
+  }
+  .poll-test-4 {
+    margin-left: 190px;
+  }
+.poll-test-3 {
+  margin-left: 210px;
+}
+.background-07 {
+  background-color: #ffffff;
+  margin-bottom: 70px;
+}
+.practis-img07 {
+  display: inline-block;
+  position: absolute;
+  padding-top: -10px;
+}
+.practis-07 {
+  margin-top: 70px;
+  border-left: 3px #e8bf5d solid;
+  padding-left: 15px;
+}
+.sentence {
+  color: #111111;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+}
+.sentence-07 {
+  color: #666666;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+}
+.background-map {
+  background-image: url("../img/Layer_1.png");
+  width: 360px;
+  height: 360px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.form-map {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.background-map-fon {
+  background-color: #e8bf5d;
+  width: 370px;
+  height: 370px;
+  padding: 0 10px 10px 0;
+}
+input {
+  background-color:transparent;
+  border: 0 solid;
+  height:30px;
+  width:350px;
+  padding: 15px;
+  border-bottom: 1px solid #b9b9b9;
+}
+ input:focus {
+  outline:none;
+}
+textarea:focus {
+  outline:none;
+}
+textarea{
+  background-color:transparent;
+  border: 0 solid;
+  height:30px;
+  width:350px;
+  padding: 15px;
+  border-bottom: 1px solid #b9b9b9;
+}
+input, textarea {
+  color: #b9b9b9;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+button {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #e8bf5d;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.background-08 {
+  background-color: #000000;
+}
+.last-text {
+  color: #b5b5b5;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin-top: 15px;
+}
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav a {
+  padding: 10px;
+}
+.nav li a img {
+  border-radius: 25px;
+  width: 35px;
+  height: 35px;
+}
