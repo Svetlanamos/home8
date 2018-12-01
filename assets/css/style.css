@@ -123,6 +123,7 @@ h1 {
   border-left: 3px #e8bf5d solid;
 
 }
+
 .screen {
   margin-top: 70px;
   margin-bottom: 50px;
@@ -351,6 +352,7 @@ h5 {
   border-left: 3px #e8bf5d solid;
   margin-top: -180px;
 }
+
 .background-photo {
   background-color: #e8bf5d;
   background-image: url("../img/stock-photo-15.png");
@@ -358,6 +360,7 @@ h5 {
   height: 305px;
   box-shadow: 10px 10px 1px 10px #e8bf5d;
 }
+
 .contact-text {
   color: #ffffff;
   font-family: "Open Sans", Arial sans-serif;
@@ -365,9 +368,11 @@ h5 {
   padding: 20px;
 
 }
+
 .con-img {
   margin-left: -30px;
 }
+
 .contact-text-1 {
   font-family: "Playfair Display", Arial sans-serif;
   font-size: 31px;
@@ -375,46 +380,55 @@ h5 {
   padding: 20px;
 
 }
+
 .section-contact {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 100px;
 }
+
 .contact-text-2 {
   margin-left: -80px;
   margin-bottom: 70px;
 }
+
 .practis-05 {
   position: absolute;
   padding-top: 50px;
 
 }
-  .practis-recent{
+
+.practis-recent {
   padding: 0 15px;
   border-left: 3px #e8bf5d solid;
 
 }
-  .background-05 {
-    background-color: #ffffff;
-    padding-top: 40px;
-    margin-bottom: 50px;
-  }
-  .practis-05 img {
-    position: relative;
-    bottom: 80px;
-  }
-  .practis-recent-p {
-    color: #666666;
-    font-family: "Playfair Display", Arial sans-serif;
-    font-size: 21px;
-  }
-  .publications {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 100px;
-  }
+
+.background-05 {
+  background-color: #ffffff;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.practis-05 img {
+  position: relative;
+  bottom: 80px;
+}
+
+.practis-recent-p {
+  color: #666666;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+}
+
+.publications {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
 hr {
   border: none;
   background-color: #e8bf5d;
@@ -422,122 +436,157 @@ hr {
   margin-top: 30px;
 }
 
-  .publications-text {
-    font-family: "Playfair Display", Arial sans-serif;
-    font-size: 21px;
-    font-weight: 400;
-    letter-spacing: 0.84px;
-    line-height: 31px;
-  }
+.publications-text {
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 31px;
+}
 
-  .publications-text-date {
-    letter-spacing: 0.64px;
-    line-height: 24px;
-    color: #666666;
-    font-family: "Open Sans", Arial sans-serif;
-    font-style: oblique;
-    margin-left: 162px;
-    padding-bottom: 30px;
-  }
-  .publications-text-neme {
-    color: #111111;
-    font-family: "Open Sans", Arial sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 30px;
-  }
-  .publications-textarea {
-    padding-bottom: 30px;
-  }
-  .coment {
-    display: inline-block;
-    position: absolute;
-  }
-  .share {
-    margin-left: 280px;
-    margin-bottom: 50px;
-    position: absolute;
+.publications-text-date {
+  letter-spacing: 0.64px;
+  line-height: 24px;
+  color: #666666;
+  font-family: "Open Sans", Arial sans-serif;
+  font-style: oblique;
+  margin-left: 162px;
+  padding-bottom: 30px;
+}
 
-  }
-  .background-06 {
-    background-color: #111111;
-    padding-bottom: 90px;
-    padding-top: 50px;
-  }
-  .practis-06 {
-   display: inline-block;
-    position: absolute;
+.publications-text-neme {
+  color: #111111;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.publications-textarea {
+  padding-bottom: 30px;
+}
+
+.coment {
+  display: inline-block;
+  position: absolute;
+}
+
+.share {
+  margin-left: 280px;
+  margin-bottom: 50px;
+  position: absolute;
+
+}
+
+.background-06 {
+  background-color: #111111;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
+
+.practis-06 {
+  display: inline-block;
+  position: absolute;
   padding-top: 10px;
-  }
-  .practis-h6p {
-    padding: 10px 15px;
-    border-left: 3px #e8bf5d solid;
-  }
-  h6 {
-    color: #ffffff;
-    font-family: "Playfair Display", Arial sans-serif;
-    font-size: 31px;
-    font-weight: 400;
-    margin: 25px 0 35px 0;
-  }
-  .practis-h6-p {
-    color: #b9b9b9;
-    font-family: "Playfair Display", Arial sans-serif;
-    font-size: 21px;
-    font-weight: 400;
-  }
-  .poll {
-    color: #ffffff;
-    font-family: "Open Sans", Arial sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 31px;
+}
 
-  }
-  .color {
-    color: #e8bf5d;
-  }
-  .text-arial {
-    width: 500px;
-    background-color: #e8bf5d;
-    padding: 42px 42px 70px 42px;
-  }
-  .container-poll {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 50px;
-  }
-  .poll {
-    padding: 10px;
-    border-bottom: 1px #e8bf5d solid;
-  }
-  .poll-test {
-   margin-left: 50px;
-  }
-  .poll-test-2 {
-    margin-left: 105px;
-  }
-  .poll-test-4 {
-    margin-left: 190px;
-  }
+.practis-h6p {
+  padding: 10px 15px;
+  border-left: 3px #e8bf5d solid;
+}
+
+h6 {
+  color: #ffffff;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  margin: 25px 0 35px 0;
+}
+
+.practis-h6-p {
+  color: #b9b9b9;
+  font-family: "Playfair Display", Arial sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.poll {
+  color: #ffffff;
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 31px;
+
+}
+
+.color {
+  color: #e8bf5d;
+}
+
+.text-arial {
+  width: 500px;
+  background-color: #e8bf5d;
+  padding: 42px 42px 70px 42px;
+}
+
+.container-poll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.poll {
+  padding: 10px;
+  border-bottom: 1px #e8bf5d solid;
+}
+
+.poll-test {
+  margin-left: 60px;
+  color: white;
+}
+
+.poll-test-1 {
+  margin-left: 50px;
+  color: white;
+}
+
+.poll-test-2 {
+  margin-left: 105px;
+  color: white;
+}
+
+.poll-test-4 {
+  margin-left: 190px;
+  color: white;
+}
+
 .poll-test-3 {
   margin-left: 210px;
+  color: white;
 }
+
+a {
+  text-decoration: none;
+}
+
 .background-07 {
   background-color: #ffffff;
   margin-bottom: 70px;
 }
+
 .practis-img07 {
   display: inline-block;
   position: absolute;
   padding-top: -10px;
 }
+
 .practis-07 {
   margin-top: 70px;
   border-left: 3px #e8bf5d solid;
   padding-left: 15px;
 }
+
 .sentence {
   color: #111111;
   font-family: "Playfair Display", Arial sans-serif;
@@ -545,6 +594,7 @@ hr {
   font-weight: 400;
   line-height: 44.84px;
 }
+
 .sentence-07 {
   color: #666666;
   font-family: "Playfair Display", Arial sans-serif;
@@ -552,45 +602,53 @@ hr {
   font-weight: 400;
   line-height: 30.89px;
 }
+
 .background-map {
   background-image: url("../img/Layer_1.png");
   width: 360px;
   height: 360px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .form-map {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .background-map-fon {
   background-color: #e8bf5d;
   width: 370px;
   height: 370px;
   padding: 0 10px 10px 0;
 }
+
 input {
-  background-color:transparent;
+  background-color: transparent;
   border: 0 solid;
-  height:30px;
-  width:350px;
+  height: 30px;
+  width: 350px;
   padding: 15px;
   border-bottom: 1px solid #b9b9b9;
 }
- input:focus {
-  outline:none;
+
+input:focus {
+  outline: none;
 }
+
 textarea:focus {
-  outline:none;
+  outline: none;
 }
-textarea{
-  background-color:transparent;
+
+textarea {
+  background-color: transparent;
   border: 0 solid;
-  height:30px;
-  width:350px;
+  height: 30px;
+  width: 350px;
   padding: 15px;
   border-bottom: 1px solid #b9b9b9;
 }
+
 input, textarea {
   color: #b9b9b9;
   font-family: "Open Sans", Arial sans-serif;
@@ -599,16 +657,19 @@ input, textarea {
   line-height: 31px;
   letter-spacing: 0.56px;
 }
+
 button {
   width: 170px;
   height: 50px;
   border-radius: 25px;
   background-color: #e8bf5d;
-  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
+
 .background-08 {
   background-color: #000000;
 }
+
 .last-text {
   color: #b5b5b5;
   font-family: "Open Sans", Arial sans-serif;
@@ -617,18 +678,22 @@ button {
   line-height: 45px;
   margin-top: 15px;
 }
+
 .last {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .nav {
   display: flex;
   flex-direction: row;
 }
+
 .nav a {
   padding: 10px;
 }
+
 .nav li a img {
   border-radius: 25px;
   width: 35px;
